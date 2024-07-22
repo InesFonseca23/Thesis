@@ -41,7 +41,7 @@ ryu-manager ryu.app.simple_switch_13 ryu.app.rest_topology
 
 # LIMITATIONS
 
-Tempo de convergência dos controladores odl e ryu: impossibilita de calcular de forma reactiva
+Tempo de convergência dos controladores odl e ryu: impossibilita o calculo de forma reactiva
 
 De forma proativa, o RYU não possui endpoints para adicionar regras de fluxo, e o ODL possui documentação pouco explicita/limitada
 
@@ -49,5 +49,5 @@ Metricas a serem calculadas separadas em vez de forma consecutiva
 
 Ataques a serem executados diretamente na maquina dos controladores
 
-Rede a ser gerada na VM da execução de benchmark em vez de ser numa maquina diferente
+Rede a ser gerada na VM de execução de benchmark em vez de ser numa maquina diferente
 
