@@ -10,7 +10,7 @@ b1vbx11
 
 sudo python3 run.py -cn <controller_name>
 
-sudo python3 benchmark.py -ip <ip_addr> -p <port> -s <inicial> -q <query> -max <max_value> -n <controller_name> -t <topology> -m <metrics>
+sudo python3 benchmark.py -ip <ip_addr> -p <port> -s <inicial> -q <query> -max <max_value> -n <controller_name> -t <topology> -m <metrics>  -> VER DETALHES EM ARGUMENTS_PARSER
 
 sudo python3 benchmark.py -ip 193.137.203.34 -p 6653 -s 12 -q 3 -max 30 -n onos -t 3-tier -m N
 
