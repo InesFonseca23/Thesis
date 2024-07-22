@@ -1,10 +1,6 @@
 # Thesis
 
-ssh admin@193.137.203.34
 
-ssh admin@10.3.3.114
-
-b1vbx11
 
 # BENCHMARK
 
