@@ -18,7 +18,9 @@ sudo docker stop onos
 sudo docker rm onos
 
 sudo docker run -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6633:6633 -p 6653:6653 -e ONOS_APPS=drivers,openflow,proxyarp,reactive-routing,fwd,gui2 --name onos onosproject/onos
+
 OU PROACTIVE:
+
 docker run -d -p 8181:8181 -p 8101:8101 -p 5005:5005 -p 830:830 -p 6633:6633 -p 6653:6653 -e ONOS_APPS=drivers,openflow,proxyarp,gui2 --name onos onosproject/onos
 
 sudo docker logs onos | tail
